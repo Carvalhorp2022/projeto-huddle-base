@@ -1,0 +1,93 @@
+@media (max-width: 1260px) {
+    body {
+        background-size: cover;
+    }
+}
+
+@media (max-width: 834px) {
+    body {
+        background: url(../images/bg-mobile.svg) hsl(257, 40%, 49%) no-repeat;
+        background-size: contain;
+    }
+
+    .main {
+        max-width: 768px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:center;
+    }
+
+    .logo {
+        height: 150px;
+      
+    }
+
+    .informacoes {
+        max-width: 450px;
+    }
+
+    .info {
+        padding: 50px 0;
+    }
+}
+
+@media(max-width: 420px) {
+
+    body{
+        align-items: start;
+    }
+
+    .main {
+        max-width: 302px;
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .logo {
+        margin-top: 20px;
+        height: 92px;
+        height: 34%;
+    }
+
+
+    .info{
+        margin-top: 53px;
+        padding: 0;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 22px;
+        letter-spacing: 1px;
+        line-height: 35px;
+        margin-bottom: 18px;
+    }
+
+    p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .info a{
+        width: 200px;
+        height: 39px;
+        font-size: 14px;
+    }   
+
+    .footer {
+        margin-top: 63px;
+        text-align: center;
+        font-size: 16px;
+        padding-right: 5px;
+    }
+    
+    .footer a i {
+        height: 30px;
+        width: 30px;
+        text-align: center;
+        margin: 0 4px;
+        padding: 5px;
+    }
+}
